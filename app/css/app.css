@@ -1,0 +1,18 @@
+.R, .D {
+  width: 10px;
+  padding: 0 1em;
+  height: 10px;
+  border: 1px solid white;
+  float: left;
+  color: white;
+  line-height: 10px;
+  text-align: center;
+  font-weight: bold; }
+
+.R {
+  background: red; }
+
+.D {
+  background: blue; }
+
+/*# sourceMappingURL=app.css.map */

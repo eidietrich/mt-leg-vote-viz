@@ -1,0 +1,1363 @@
+{
+   "legislators":[
+      {
+         "LastName":"GUNDERSON",
+         "FirstName":"STEVE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 1",
+         "City":"LIBBY",
+         "House":"HD",
+         "District":1
+      },
+      {
+         "LastName":"VINCENT",
+         "FirstName":"CHAS",
+         "PartyAbbrev":"R",
+         "Full District":"SD 1",
+         "City":"LIBBY",
+         "House":"SD",
+         "District":1
+      },
+      {
+         "LastName":"CUFFE",
+         "FirstName":"MIKE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 2",
+         "City":"EUREKA",
+         "House":"HD",
+         "District":2
+      },
+      {
+         "LastName":"BROWN",
+         "FirstName":"DEE",
+         "PartyAbbrev":"R",
+         "Full District":"SD 2",
+         "City":"HUNGRY HORSE",
+         "House":"SD",
+         "District":2
+      },
+      {
+         "LastName":"PERRY",
+         "FirstName":"ZAC",
+         "PartyAbbrev":"D",
+         "Full District":"HD 3",
+         "City":"HUNGRY HORSE",
+         "House":"HD",
+         "District":3
+      },
+      {
+         "LastName":"REGIER",
+         "FirstName":"KEITH",
+         "PartyAbbrev":"R",
+         "Full District":"SD 3",
+         "City":"KALISPELL",
+         "House":"SD",
+         "District":3
+      },
+      {
+         "LastName":"REGIER",
+         "FirstName":"KEITH",
+         "PartyAbbrev":"R",
+         "Full District":"HD 4",
+         "City":"KALISPELL",
+         "House":"HD",
+         "District":4
+      },
+      {
+         "LastName":"BLASDEL",
+         "FirstName":"MARK",
+         "PartyAbbrev":"R",
+         "Full District":"SD 4",
+         "City":"KALISPELL",
+         "House":"SD",
+         "District":4
+      },
+      {
+         "LastName":"FERN",
+         "FirstName":"DAVE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 5",
+         "City":"WHITEFISH",
+         "House":"HD",
+         "District":5
+      },
+      {
+         "LastName":"KEENAN",
+         "FirstName":"BOB",
+         "PartyAbbrev":"R",
+         "Full District":"SD 5",
+         "City":"BIGFORK",
+         "House":"SD",
+         "District":5
+      },
+      {
+         "LastName":"GLIMM",
+         "FirstName":"CARL",
+         "PartyAbbrev":"R",
+         "Full District":"HD 6",
+         "City":"KILA",
+         "House":"HD",
+         "District":6
+      },
+      {
+         "LastName":"OLSZEWSKI",
+         "FirstName":"ALBERT",
+         "PartyAbbrev":"R",
+         "Full District":"SD 6",
+         "City":"KALISPELL",
+         "House":"SD",
+         "District":6
+      },
+      {
+         "LastName":"GARNER",
+         "FirstName":"FRANK",
+         "PartyAbbrev":"R",
+         "Full District":"HD 7",
+         "City":"KALISPELL",
+         "House":"HD",
+         "District":7
+      },
+      {
+         "LastName":"FIELDER",
+         "FirstName":"JENNIFER",
+         "PartyAbbrev":"R",
+         "Full District":"SD 7",
+         "City":"THOMPSON FALLS",
+         "House":"SD",
+         "District":7
+      },
+      {
+         "LastName":"LAVIN",
+         "FirstName":"STEVE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 8",
+         "City":"KALISPELL",
+         "House":"HD",
+         "District":8
+      },
+      {
+         "LastName":"WHITFORD",
+         "FirstName":"LEA",
+         "PartyAbbrev":"D",
+         "Full District":"SD 8",
+         "City":"CUT BANK",
+         "House":"SD",
+         "District":8
+      },
+      {
+         "LastName":"BRODEHL",
+         "FirstName":"RANDY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 9",
+         "City":"KALISPELL",
+         "House":"HD",
+         "District":9
+      },
+      {
+         "LastName":"JONES",
+         "FirstName":"LLEW",
+         "PartyAbbrev":"R",
+         "Full District":"SD 9",
+         "City":"CONRAD",
+         "House":"SD",
+         "District":9
+      },
+      {
+         "LastName":"NOLAND",
+         "FirstName":"MARK",
+         "PartyAbbrev":"R",
+         "Full District":"HD 10",
+         "City":"BIGFORK",
+         "House":"HD",
+         "District":10
+      },
+      {
+         "LastName":"FITZPATRICK",
+         "FirstName":"STEVE",
+         "PartyAbbrev":"R",
+         "Full District":"SD 10",
+         "City":"GREAT FALLS",
+         "House":"SD",
+         "District":10
+      },
+      {
+         "LastName":"SKEES",
+         "FirstName":"DEREK",
+         "PartyAbbrev":"R",
+         "Full District":"HD 11",
+         "City":"KALISPELL",
+         "House":"HD",
+         "District":11
+      },
+      {
+         "LastName":"BUTTREY",
+         "FirstName":"EDWARD",
+         "PartyAbbrev":"R",
+         "Full District":"SD 11",
+         "City":"GREAT FALLS",
+         "House":"SD",
+         "District":11
+      },
+      {
+         "LastName":"HERTZ",
+         "FirstName":"GREG",
+         "PartyAbbrev":"R",
+         "Full District":"HD 12",
+         "City":"POLSON",
+         "House":"HD",
+         "District":12
+      },
+      {
+         "LastName":"MOE",
+         "FirstName":"MARY SHEEHY",
+         "PartyAbbrev":"D",
+         "Full District":"SD 12",
+         "City":"GREAT FALLS",
+         "House":"SD",
+         "District":12
+      },
+      {
+         "LastName":"BROWN",
+         "FirstName":"BOB",
+         "PartyAbbrev":"R",
+         "Full District":"HD 13",
+         "City":"THOMPSON FALLS",
+         "House":"HD",
+         "District":13
+      },
+      {
+         "LastName":"HOVEN",
+         "FirstName":"BRIAN",
+         "PartyAbbrev":"R",
+         "Full District":"SD 13",
+         "City":"GREAT FALLS",
+         "House":"SD",
+         "District":13
+      },
+      {
+         "LastName":"LOGE",
+         "FirstName":"DENLEY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 14",
+         "City":"SAIT REGIS",
+         "House":"HD",
+         "District":14
+      },
+      {
+         "LastName":"HANSEN",
+         "FirstName":"KRISTIN",
+         "PartyAbbrev":"R",
+         "Full District":"SD 14",
+         "City":"HAVRE",
+         "House":"SD",
+         "District":14
+      },
+      {
+         "LastName":"KIPP III",
+         "FirstName":"GEORGE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 15",
+         "City":"HEART BUTTE",
+         "House":"HD",
+         "District":15
+      },
+      {
+         "LastName":"OSMUNDSON",
+         "FirstName":"RYAN",
+         "PartyAbbrev":"R",
+         "Full District":"SD 15",
+         "City":"BUFFALO",
+         "House":"SD",
+         "District":15
+      },
+      {
+         "LastName":"WEBBER",
+         "FirstName":"SUSAN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 16",
+         "City":"BROWNING",
+         "House":"HD",
+         "District":16
+      },
+      {
+         "LastName":"SMITH",
+         "FirstName":"FRANK",
+         "PartyAbbrev":"D",
+         "Full District":"SD 16",
+         "City":"POPLAR",
+         "House":"SD",
+         "District":16
+      },
+      {
+         "LastName":"FITZGERALD",
+         "FirstName":"ROSS",
+         "PartyAbbrev":"R",
+         "Full District":"HD 17",
+         "City":"FAIRFIELD",
+         "House":"HD",
+         "District":17
+      },
+      {
+         "LastName":"LANG",
+         "FirstName":"MIKE",
+         "PartyAbbrev":"R",
+         "Full District":"SD 17",
+         "City":"MALTA",
+         "House":"SD",
+         "District":17
+      },
+      {
+         "LastName":"COOK",
+         "FirstName":"ROB",
+         "PartyAbbrev":"R",
+         "Full District":"HD 18",
+         "City":"CONRAD",
+         "House":"HD",
+         "District":18
+      },
+      {
+         "LastName":"HINEBAUCH",
+         "FirstName":"STEVE",
+         "PartyAbbrev":"R",
+         "Full District":"SD 18",
+         "City":"WIBAUX",
+         "House":"SD",
+         "District":18
+      },
+      {
+         "LastName":"MCKAMEY",
+         "FirstName":"WENDY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 19",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":19
+      },
+      {
+         "LastName":"MOORE",
+         "FirstName":"FREDERICK",
+         "PartyAbbrev":"R",
+         "Full District":"SD 19",
+         "City":"MILES CITY",
+         "House":"SD",
+         "District":19
+      },
+      {
+         "LastName":"ANDERSON",
+         "FirstName":"FRED",
+         "PartyAbbrev":"R",
+         "Full District":"HD 20",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":20
+      },
+      {
+         "LastName":"ANKNEY",
+         "FirstName":"DUANE",
+         "PartyAbbrev":"R",
+         "Full District":"SD 20",
+         "City":"COLSTRIP",
+         "House":"SD",
+         "District":20
+      },
+      {
+         "LastName":"JACOBSON",
+         "FirstName":"TOM",
+         "PartyAbbrev":"D",
+         "Full District":"HD 21",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":21
+      },
+      {
+         "LastName":"SMALL",
+         "FirstName":"JASON",
+         "PartyAbbrev":"R",
+         "Full District":"SD 21",
+         "City":"BUSBY",
+         "House":"SD",
+         "District":21
+      },
+      {
+         "LastName":"SHELDON-GALLOWAY",
+         "FirstName":"LOLA",
+         "PartyAbbrev":"R",
+         "Full District":"HD 22",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":22
+      },
+      {
+         "LastName":"KARY",
+         "FirstName":"DOUG",
+         "PartyAbbrev":"R",
+         "Full District":"SD 22",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":22
+      },
+      {
+         "LastName":"HAMLETT",
+         "FirstName":"BRADLEY MAXON",
+         "PartyAbbrev":"D",
+         "Full District":"HD 23",
+         "City":"CASCADE",
+         "House":"HD",
+         "District":23
+      },
+      {
+         "LastName":"WEBB",
+         "FirstName":"ROGER",
+         "PartyAbbrev":"R",
+         "Full District":"SD 23",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":23
+      },
+      {
+         "LastName":"PRICE",
+         "FirstName":"JEAN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 24",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":24
+      },
+      {
+         "LastName":"MCNALLY",
+         "FirstName":"MARY",
+         "PartyAbbrev":"D",
+         "Full District":"SD 24",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":24
+      },
+      {
+         "LastName":"TREBAS",
+         "FirstName":"JEREMY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 25",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":25
+      },
+      {
+         "LastName":"GROSS",
+         "FirstName":"JEN",
+         "PartyAbbrev":"D",
+         "Full District":"SD 25",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":25
+      },
+      {
+         "LastName":"SCHREINER",
+         "FirstName":"CASEY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 26",
+         "City":"GREAT FALLS",
+         "House":"HD",
+         "District":26
+      },
+      {
+         "LastName":"MACDONALD",
+         "FirstName":"MARGARET",
+         "PartyAbbrev":"D",
+         "Full District":"SD 26",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":26
+      },
+      {
+         "LastName":"O'HARA",
+         "FirstName":"JAMES",
+         "PartyAbbrev":"R",
+         "Full District":"HD 27",
+         "City":"FORT BENTON",
+         "House":"HD",
+         "District":27
+      },
+      {
+         "LastName":"SMITH",
+         "FirstName":"CARY",
+         "PartyAbbrev":"R",
+         "Full District":"SD 27",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":27
+      },
+      {
+         "LastName":"BACHMEIER",
+         "FirstName":"JACOB",
+         "PartyAbbrev":"D",
+         "Full District":"HD 28",
+         "City":"HAVRE",
+         "House":"HD",
+         "District":28
+      },
+      {
+         "LastName":"RICHMOND",
+         "FirstName":"TOM",
+         "PartyAbbrev":"R",
+         "Full District":"SD 28",
+         "City":"BILLINGS",
+         "House":"SD",
+         "District":28
+      },
+      {
+         "LastName":"HARRIS",
+         "FirstName":"BILL",
+         "PartyAbbrev":"R",
+         "Full District":"HD 29",
+         "City":"WINNETT",
+         "House":"HD",
+         "District":29
+      },
+      {
+         "LastName":"HOWARD",
+         "FirstName":"DAVID",
+         "PartyAbbrev":"R",
+         "Full District":"SD 29",
+         "City":"PARK CITY",
+         "House":"SD",
+         "District":29
+      },
+      {
+         "LastName":"GALT",
+         "FirstName":"WYLIE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 30",
+         "City":"MARTINSDALE",
+         "House":"HD",
+         "District":30
+      },
+      {
+         "LastName":"SWANDAL",
+         "FirstName":"NELS",
+         "PartyAbbrev":"R",
+         "Full District":"SD 30",
+         "City":"WILSALL",
+         "House":"SD",
+         "District":30
+      },
+      {
+         "LastName":"SMITH",
+         "FirstName":"BRIDGET",
+         "PartyAbbrev":"D",
+         "Full District":"HD 31",
+         "City":"WOLF POINT",
+         "House":"HD",
+         "District":31
+      },
+      {
+         "LastName":"PHILLIPS",
+         "FirstName":"MIKE",
+         "PartyAbbrev":"D",
+         "Full District":"SD 31",
+         "City":"BOZEMAN",
+         "House":"SD",
+         "District":31
+      },
+      {
+         "LastName":"WINDY BOY",
+         "FirstName":"JONATHAN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 32",
+         "City":"BOX ELDER",
+         "House":"HD",
+         "District":32
+      },
+      {
+         "LastName":"HINKLE",
+         "FirstName":"JEDEDIAH",
+         "PartyAbbrev":"R",
+         "Full District":"SD 32",
+         "City":"BOZEMAN",
+         "House":"SD",
+         "District":32
+      },
+      {
+         "LastName":"KNUDSEN",
+         "FirstName":"CASEY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 33",
+         "City":"MALTA",
+         "House":"HD",
+         "District":33
+      },
+      {
+         "LastName":"POMNICHOWSKI",
+         "FirstName":"JP",
+         "PartyAbbrev":"D",
+         "Full District":"SD 33",
+         "City":"BOZEMAN",
+         "House":"SD",
+         "District":33
+      },
+      {
+         "LastName":"KNUDSEN",
+         "FirstName":"AUSTIN",
+         "PartyAbbrev":"R",
+         "Full District":"HD 34",
+         "City":"CULBERTSON",
+         "House":"HD",
+         "District":34
+      },
+      {
+         "LastName":"VANCE",
+         "FirstName":"GORDON",
+         "PartyAbbrev":"R",
+         "Full District":"SD 34",
+         "City":"BOZEMAN",
+         "House":"SD",
+         "District":34
+      },
+      {
+         "LastName":"STAFFANSON",
+         "FirstName":"SCOTT",
+         "PartyAbbrev":"R",
+         "Full District":"HD 35",
+         "City":"SIDNEY",
+         "House":"HD",
+         "District":35
+      },
+      {
+         "LastName":"SALES",
+         "FirstName":"SCOTT",
+         "PartyAbbrev":"R",
+         "Full District":"SD 35",
+         "City":"BOZEMAN",
+         "House":"SD",
+         "District":35
+      },
+      {
+         "LastName":"DOANE",
+         "FirstName":"ALAN",
+         "PartyAbbrev":"R",
+         "Full District":"HD 36",
+         "City":"BLOOMFIELD",
+         "House":"HD",
+         "District":36
+      },
+      {
+         "LastName":"WELBORN",
+         "FirstName":"JEFFREY",
+         "PartyAbbrev":"R",
+         "Full District":"SD 36",
+         "City":"DILLON",
+         "House":"SD",
+         "District":36
+      },
+      {
+         "LastName":"BARTEL",
+         "FirstName":"DANIEL",
+         "PartyAbbrev":"R",
+         "Full District":"HD 29",
+         "City":"LEWISTOWN",
+         "House":"HD",
+         "District":37
+      },
+      {
+         "LastName":"SESSO",
+         "FirstName":"JON",
+         "PartyAbbrev":"D",
+         "Full District":"SD 37",
+         "City":"BUTTE",
+         "House":"SD",
+         "District":37
+      },
+      {
+         "LastName":"HOLMLUND",
+         "FirstName":"KENNETH",
+         "PartyAbbrev":"R",
+         "Full District":"HD 38",
+         "City":"MILES CITY",
+         "House":"HD",
+         "District":38
+      },
+      {
+         "LastName":"MCCLAFFERTY",
+         "FirstName":"EDIE",
+         "PartyAbbrev":"D",
+         "Full District":"SD 38",
+         "City":"BUTTE",
+         "House":"SD",
+         "District":38
+      },
+      {
+         "LastName":"CUSTER",
+         "FirstName":"GERALDINE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 39",
+         "City":"FORSYTH",
+         "House":"HD",
+         "District":39
+      },
+      {
+         "LastName":"VUCKOVICH",
+         "FirstName":"GENE",
+         "PartyAbbrev":"D",
+         "Full District":"SD 39",
+         "City":"ANACONDA",
+         "House":"SD",
+         "District":39
+      },
+      {
+         "LastName":"USHER",
+         "FirstName":"BARRY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 40",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":40
+      },
+      {
+         "LastName":"GAUTHIER",
+         "FirstName":"TERRY",
+         "PartyAbbrev":"R",
+         "Full District":"SD 40",
+         "City":"HELENA",
+         "House":"SD",
+         "District":40
+      },
+      {
+         "LastName":"PEPPERS",
+         "FirstName":"RAE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 41",
+         "City":"LAME DEER",
+         "House":"HD",
+         "District":41
+      },
+      {
+         "LastName":"CAFERRO",
+         "FirstName":"MARY ANN",
+         "PartyAbbrev":"D",
+         "Full District":"SD 41",
+         "City":"HELENA",
+         "House":"SD",
+         "District":41
+      },
+      {
+         "LastName":"STEWART-PEREGOY",
+         "FirstName":"SHARON",
+         "PartyAbbrev":"D",
+         "Full District":"HD 42",
+         "City":"CROW AGENCY",
+         "House":"HD",
+         "District":42
+      },
+      {
+         "LastName":"COHENOUR",
+         "FirstName":"JILL",
+         "PartyAbbrev":"D",
+         "Full District":"SD 42",
+         "City":"EAST HELENA",
+         "House":"SD",
+         "District":42
+      },
+      {
+         "LastName":"WEBB",
+         "FirstName":"PEGGY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 43",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":43
+      },
+      {
+         "LastName":"CONNELL",
+         "FirstName":"PAT",
+         "PartyAbbrev":"R",
+         "Full District":"SD 43",
+         "City":"HAMILTON",
+         "House":"SD",
+         "District":43
+      },
+      {
+         "LastName":"MORTENSEN",
+         "FirstName":"DALE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 44",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":44
+      },
+      {
+         "LastName":"THOMAS",
+         "FirstName":"FRED",
+         "PartyAbbrev":"R",
+         "Full District":"SD 44",
+         "City":"STEVENSVILLE",
+         "House":"SD",
+         "District":44
+      },
+      {
+         "LastName":"ZOLNIKOV",
+         "FirstName":"DANIEL",
+         "PartyAbbrev":"R",
+         "Full District":"HD 45",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":45
+      },
+      {
+         "LastName":"BARRETT",
+         "FirstName":"DICK",
+         "PartyAbbrev":"D",
+         "Full District":"SD 45",
+         "City":"MISSOULA",
+         "House":"SD",
+         "District":45
+      },
+      {
+         "LastName":"JONES",
+         "FirstName":"DONALD",
+         "PartyAbbrev":"R",
+         "Full District":"HD 46",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":46
+      },
+      {
+         "LastName":"MALEK",
+         "FirstName":"SUE",
+         "PartyAbbrev":"D",
+         "Full District":"SD 46",
+         "City":"MISSOULA",
+         "House":"SD",
+         "District":46
+      },
+      {
+         "LastName":"KELKER",
+         "FirstName":"KATHY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 47",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":47
+      },
+      {
+         "LastName":"SALOMON",
+         "FirstName":"DANIEL",
+         "PartyAbbrev":"R",
+         "Full District":"SD 47",
+         "City":"RONAN",
+         "House":"SD",
+         "District":47
+      },
+      {
+         "LastName":"KARJALA",
+         "FirstName":"JESSICA",
+         "PartyAbbrev":"D",
+         "Full District":"HD 48",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":48
+      },
+      {
+         "LastName":"WOLKEN",
+         "FirstName":"CYNTHIA",
+         "PartyAbbrev":"D",
+         "Full District":"SD 48",
+         "City":"MISSOULA",
+         "House":"SD",
+         "District":48
+      },
+      {
+         "LastName":"MCCARTHY",
+         "FirstName":"KELLY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 49",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":49
+      },
+      {
+         "LastName":"SANDS",
+         "FirstName":"DIANE",
+         "PartyAbbrev":"D",
+         "Full District":"SD 49",
+         "City":"MISSOULA",
+         "House":"SD",
+         "District":49
+      },
+      {
+         "LastName":"COURT",
+         "FirstName":"VIRGINIA",
+         "PartyAbbrev":"D",
+         "Full District":"HD 50",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":50
+      },
+      {
+         "LastName":"FACEY",
+         "FirstName":"TOM",
+         "PartyAbbrev":"D",
+         "Full District":"SD 50",
+         "City":"MISSOULA",
+         "House":"SD",
+         "District":50
+      },
+      {
+         "LastName":"ROSENDALE",
+         "FirstName":"ADAM",
+         "PartyAbbrev":"R",
+         "Full District":"HD 51",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":51
+      },
+      {
+         "LastName":"PATELIS",
+         "FirstName":"JIMMY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 52",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":52
+      },
+      {
+         "LastName":"LENZ",
+         "FirstName":"DENNIS",
+         "PartyAbbrev":"R",
+         "Full District":"HD 53",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":53
+      },
+      {
+         "LastName":"ESSMANN",
+         "FirstName":"JEFF",
+         "PartyAbbrev":"R",
+         "Full District":"HD 54",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":54
+      },
+      {
+         "LastName":"RICCI",
+         "FirstName":"VINCE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 55",
+         "City":"LAUREL",
+         "House":"HD",
+         "District":55
+      },
+      {
+         "LastName":"VINTON",
+         "FirstName":"SUE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 56",
+         "City":"BILLINGS",
+         "House":"HD",
+         "District":56
+      },
+      {
+         "LastName":"MANDEVILLE",
+         "FirstName":"FORREST",
+         "PartyAbbrev":"R",
+         "Full District":"HD 57",
+         "City":"COLUMBUS",
+         "House":"HD",
+         "District":57
+      },
+      {
+         "LastName":"BERGLEE",
+         "FirstName":"SETH",
+         "PartyAbbrev":"R",
+         "Full District":"HD 58",
+         "City":"JOLIET",
+         "House":"HD",
+         "District":58
+      },
+      {
+         "LastName":"REDFIELD",
+         "FirstName":"ALAN",
+         "PartyAbbrev":"R",
+         "Full District":"HD 59",
+         "City":"LIVINGSTON",
+         "House":"HD",
+         "District":59
+      },
+      {
+         "LastName":"BISHOP",
+         "FirstName":"LAURIE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 60",
+         "City":"LIVINGSTON",
+         "House":"HD",
+         "District":60
+      },
+      {
+         "LastName":"LAMM",
+         "FirstName":"DEBRA",
+         "PartyAbbrev":"R",
+         "Full District":"HD 60",
+         "City":"LIVINGSTON",
+         "House":"HD",
+         "District":60
+      },
+      {
+         "LastName":"HAMILTON",
+         "FirstName":"JIM",
+         "PartyAbbrev":"D",
+         "Full District":"HD 61",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":61
+      },
+      {
+         "LastName":"WOODS",
+         "FirstName":"TOM",
+         "PartyAbbrev":"D",
+         "Full District":"HD 62",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":62
+      },
+      {
+         "LastName":"BROWN",
+         "FirstName":"ZACH",
+         "PartyAbbrev":"D",
+         "Full District":"HD 63",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":63
+      },
+      {
+         "LastName":"WHITE",
+         "FirstName":"KERRY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 64",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":64
+      },
+      {
+         "LastName":"KNOKEY",
+         "FirstName":"JON",
+         "PartyAbbrev":"R",
+         "Full District":"HD 65",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":65
+      },
+      {
+         "LastName":"HAYMAN",
+         "FirstName":"DENISE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 66",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":66
+      },
+      {
+         "LastName":"BURNETT",
+         "FirstName":"TOM",
+         "PartyAbbrev":"R",
+         "Full District":"HD 67",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":67
+      },
+      {
+         "LastName":"GRUBBS",
+         "FirstName":"BRUCE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 68",
+         "City":"BOZEMAN",
+         "House":"HD",
+         "District":68
+      },
+      {
+         "LastName":"SALES",
+         "FirstName":"WALT",
+         "PartyAbbrev":"R",
+         "Full District":"HD 69",
+         "City":"MANHATTAN",
+         "House":"HD",
+         "District":69
+      },
+      {
+         "LastName":"FLYNN",
+         "FirstName":"KELLY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 70",
+         "City":"TOWNSEND",
+         "House":"HD",
+         "District":70
+      },
+      {
+         "LastName":"SHAW",
+         "FirstName":"RAY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 71",
+         "City":"SHERIDAN",
+         "House":"HD",
+         "District":71
+      },
+      {
+         "LastName":"WELCH",
+         "FirstName":"TOM",
+         "PartyAbbrev":"R",
+         "Full District":"HD 72",
+         "City":"DILLON",
+         "House":"HD",
+         "District":72
+      },
+      {
+         "LastName":"KEANE",
+         "FirstName":"JIM",
+         "PartyAbbrev":"D",
+         "Full District":"HD 73",
+         "City":"BUTTE",
+         "House":"HD",
+         "District":73
+      },
+      {
+         "LastName":"CURTIS",
+         "FirstName":"AMANDA",
+         "PartyAbbrev":"D",
+         "Full District":"HD 74",
+         "City":"BUTTE",
+         "House":"HD",
+         "District":74
+      },
+      {
+         "LastName":"WAGONER",
+         "FirstName":"KIRK",
+         "PartyAbbrev":"R",
+         "Full District":"HD 75",
+         "City":"CLANCY",
+         "House":"HD",
+         "District":75
+      },
+      {
+         "LastName":"LYNCH",
+         "FirstName":"RYAN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 76",
+         "City":"BUTTE",
+         "House":"HD",
+         "District":76
+      },
+      {
+         "LastName":"SWANSON",
+         "FirstName":"KATHY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 77",
+         "City":"ANACONDA",
+         "House":"HD",
+         "District":77
+      },
+      {
+         "LastName":"PIERSON",
+         "FirstName":"GORDON",
+         "PartyAbbrev":"D",
+         "Full District":"HD 78",
+         "City":"DEER LODGE",
+         "House":"HD",
+         "District":78
+      },
+      {
+         "LastName":"ECK",
+         "FirstName":"JENNY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 79",
+         "City":"HELENA",
+         "House":"HD",
+         "District":79
+      },
+      {
+         "LastName":"BEARD",
+         "FirstName":"BECKY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 80",
+         "City":"ELLISTON",
+         "House":"HD",
+         "District":80
+      },
+      {
+         "LastName":"ELLIS",
+         "FirstName":"JANET",
+         "PartyAbbrev":"D",
+         "Full District":"HD 81",
+         "City":"HELENA",
+         "House":"HD",
+         "District":81
+      },
+      {
+         "LastName":"FUNK",
+         "FirstName":"MOFFIE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 82",
+         "City":"HELENA",
+         "House":"HD",
+         "District":82
+      },
+      {
+         "LastName":"ABBOTT",
+         "FirstName":"KIMBERLY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 83",
+         "City":"HELENA",
+         "House":"HD",
+         "District":83
+      },
+      {
+         "LastName":"DUNWELL",
+         "FirstName":"MARY ANN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 84",
+         "City":"HELENA",
+         "House":"HD",
+         "District":84
+      },
+      {
+         "LastName":"MANZELLA",
+         "FirstName":"THERESA",
+         "PartyAbbrev":"R",
+         "Full District":"HD 85",
+         "City":"HAMILTON",
+         "House":"HD",
+         "District":85
+      },
+      {
+         "LastName":"EHLI",
+         "FirstName":"RON",
+         "PartyAbbrev":"R",
+         "Full District":"HD 86",
+         "City":"HAMILTON",
+         "House":"HD",
+         "District":86
+      },
+      {
+         "LastName":"BALLANCE",
+         "FirstName":"NANCY",
+         "PartyAbbrev":"R",
+         "Full District":"HD 87",
+         "City":"HAMILTON",
+         "House":"HD",
+         "District":87
+      },
+      {
+         "LastName":"GREEF",
+         "FirstName":"EDWARD",
+         "PartyAbbrev":"R",
+         "Full District":"HD 88",
+         "City":"FLORENCE",
+         "House":"HD",
+         "District":88
+      },
+      {
+         "LastName":"MCCONNELL",
+         "FirstName":"NATE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 89",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":89
+      },
+      {
+         "LastName":"HILL",
+         "FirstName":"ELLIE BOLDMAN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 90",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":90
+      },
+      {
+         "LastName":"BENNETT",
+         "FirstName":"BRYCE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 91",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":91
+      },
+      {
+         "LastName":"HOPKINS",
+         "FirstName":"MIKE",
+         "PartyAbbrev":"R",
+         "Full District":"HD 92",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":92
+      },
+      {
+         "LastName":"FLEMING",
+         "FirstName":"JOHN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 93",
+         "City":"SAIT IGNATIUS",
+         "House":"HD",
+         "District":93
+      },
+      {
+         "LastName":"DUDIK",
+         "FirstName":"KIMBERLY",
+         "PartyAbbrev":"D",
+         "Full District":"HD 94",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":94
+      },
+      {
+         "LastName":"MORIGEAU",
+         "FirstName":"SHANE",
+         "PartyAbbrev":"D",
+         "Full District":"HD 95",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":95
+      },
+      {
+         "LastName":"HERTZ",
+         "FirstName":"ADAM",
+         "PartyAbbrev":"R",
+         "Full District":"HD 96",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":96
+      },
+      {
+         "LastName":"TSCHIDA",
+         "FirstName":"BRAD",
+         "PartyAbbrev":"R",
+         "Full District":"HD 97",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":97
+      },
+      {
+         "LastName":"CURDY",
+         "FirstName":"WILLIS",
+         "PartyAbbrev":"D",
+         "Full District":"HD 98",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":98
+      },
+      {
+         "LastName":"RYAN",
+         "FirstName":"MARILYN",
+         "PartyAbbrev":"D",
+         "Full District":"HD 99",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":99
+      },
+      {
+         "LastName":"OLSEN",
+         "FirstName":"ANDREA",
+         "PartyAbbrev":"D",
+         "Full District":"HD 100",
+         "City":"MISSOULA",
+         "House":"HD",
+         "District":100
+      }
+   ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "vote": "Y",
+    "firstName": "KIM",
+    "lastName": "ABBOTT",
+    "district": "HD 83",
+    "districtNum": 83,
+    "party": "D",
+    "city": "HELENA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JEFF",
+    "lastName": "ESSMANN",
+    "district": "HD 54",
+    "districtNum": 54,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KATHY",
+    "lastName": "KELKER",
+    "district": "HD 47",
+    "districtNum": 47,
+    "party": "D",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MATT",
+    "lastName": "REGIER",
+    "district": "HD 4",
+    "districtNum": 4,
+    "party": "R",
+    "city": "KALISPELL"
+  },
+  {
+    "vote": "Y",
+    "firstName": "FRED",
+    "lastName": "ANDERSON",
+    "district": "HD 20",
+    "districtNum": 20,
+    "party": "R",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DAVE",
+    "lastName": "FERN",
+    "district": "HD 5",
+    "districtNum": 5,
+    "party": "D",
+    "city": "WHITEFISH"
+  },
+  {
+    "vote": "Y",
+    "firstName": "GEORGE",
+    "lastName": "KIPP III",
+    "district": "HD 15",
+    "districtNum": 15,
+    "party": "D",
+    "city": "HEART BUTTE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "VINCE",
+    "lastName": "RICCI",
+    "district": "HD 55",
+    "districtNum": 55,
+    "party": "R",
+    "city": "LAUREL"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JACOB",
+    "lastName": "BACHMEIER",
+    "district": "HD 28",
+    "districtNum": 28,
+    "party": "D",
+    "city": "HAVRE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ROSS",
+    "lastName": "FITZGERALD",
+    "district": "HD 17",
+    "districtNum": 17,
+    "party": "R",
+    "city": "FAIRFIELD"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JON",
+    "lastName": "KNOKEY",
+    "district": "HD 65",
+    "districtNum": 65,
+    "party": "R",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ADAM",
+    "lastName": "ROSENDALE",
+    "district": "HD 51",
+    "districtNum": 51,
+    "party": "R",
+    "city": "Billings"
+  },
+  {
+    "vote": "Y",
+    "firstName": "NANCY",
+    "lastName": "BALLANCE",
+    "district": "HD 87",
+    "districtNum": 87,
+    "party": "R",
+    "city": "HAMILTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JOHN",
+    "lastName": "FLEMING",
+    "district": "HD 93",
+    "districtNum": 93,
+    "party": "D",
+    "city": "SAINT IGNATIUS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "CASEY",
+    "lastName": "KNUDSEN",
+    "district": "HD 33",
+    "districtNum": 33,
+    "party": "R",
+    "city": "Malta"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MARILYN",
+    "lastName": "RYAN",
+    "district": "HD 99",
+    "districtNum": 99,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DAN",
+    "lastName": "BARTEL",
+    "district": "HD 29",
+    "districtNum": 29,
+    "party": "R",
+    "city": "Lewistown"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KELLY",
+    "lastName": "FLYNN",
+    "district": "HD 70",
+    "districtNum": 70,
+    "party": "R",
+    "city": "TOWNSEND"
+  },
+  {
+    "vote": "Y",
+    "firstName": "AUSTIN",
+    "lastName": "KNUDSEN",
+    "district": "HD 34",
+    "districtNum": 34,
+    "party": "R",
+    "city": "CULBERTSON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "WALT",
+    "lastName": "SALES",
+    "district": "HD 69",
+    "districtNum": 69,
+    "party": "R",
+    "city": "MANHATTAN"
+  },
+  {
+    "vote": "N",
+    "firstName": "BECKY",
+    "lastName": "BEARD",
+    "district": "HD 80",
+    "districtNum": 80,
+    "party": "R",
+    "city": "ELLISTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MOFFIE",
+    "lastName": "FUNK",
+    "district": "HD 82",
+    "districtNum": 82,
+    "party": "D",
+    "city": "HELENA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "STEVE",
+    "lastName": "LAVIN",
+    "district": "HD 8",
+    "districtNum": 8,
+    "party": "R",
+    "city": "KALISPELL"
+  },
+  {
+    "vote": "N",
+    "firstName": "CASEY",
+    "lastName": "SCHREINER",
+    "district": "HD 26",
+    "districtNum": 26,
+    "party": "D",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BRYCE",
+    "lastName": "BENNETT",
+    "district": "HD 91",
+    "districtNum": 91,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "WYLIE",
+    "lastName": "GALT",
+    "district": "HD 30",
+    "districtNum": 30,
+    "party": "R",
+    "city": "MARTINSDALE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DENNIS",
+    "lastName": "LENZ",
+    "district": "HD 53",
+    "districtNum": 53,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "A",
+    "firstName": "RAY",
+    "lastName": "SHAW",
+    "district": "HD 71",
+    "districtNum": 71,
+    "party": "R",
+    "city": "SHERIDAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "SETH",
+    "lastName": "BERGLEE",
+    "district": "HD 58",
+    "districtNum": 58,
+    "party": "R",
+    "city": "JOLIET"
+  },
+  {
+    "vote": "Y",
+    "firstName": "FRANK",
+    "lastName": "GARNER",
+    "district": "HD 7",
+    "districtNum": 7,
+    "party": "R",
+    "city": "KALISPELL"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DENLEY",
+    "lastName": "LOGE",
+    "district": "HD 14",
+    "districtNum": 14,
+    "party": "R",
+    "city": "Saint Regis"
+  },
+  {
+    "vote": "Y",
+    "firstName": "LOLA",
+    "lastName": "SHELDON-GALLOWAY",
+    "district": "HD 22",
+    "districtNum": 22,
+    "party": "R",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "LAURIE",
+    "lastName": "BISHOP",
+    "district": "HD 60",
+    "districtNum": 60,
+    "party": "D",
+    "city": "LIVINGSTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "CARL",
+    "lastName": "GLIMM",
+    "district": "HD 6",
+    "districtNum": 6,
+    "party": "R",
+    "city": "KILA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "RYAN",
+    "lastName": "LYNCH",
+    "district": "HD 76",
+    "districtNum": 76,
+    "party": "D",
+    "city": "BUTTE"
+  },
+  {
+    "vote": "N",
+    "firstName": "DEREK",
+    "lastName": "SKEES",
+    "district": "HD 11",
+    "districtNum": 11,
+    "party": "R",
+    "city": "KALISPELL"
+  },
+  {
+    "vote": "Y",
+    "firstName": "RANDY",
+    "lastName": "BRODEHL",
+    "district": "HD 9",
+    "districtNum": 9,
+    "party": "R",
+    "city": "KALISPELL"
+  },
+  {
+    "vote": "Y",
+    "firstName": "EDWARD",
+    "lastName": "GREEF",
+    "district": "HD 88",
+    "districtNum": 88,
+    "party": "R",
+    "city": "FLORENCE"
+  },
+  {
+    "vote": "N",
+    "firstName": "FORREST",
+    "lastName": "MANDEVILLE",
+    "district": "HD 57",
+    "districtNum": 57,
+    "party": "R",
+    "city": "COLUMBUS"
+  },
+  {
+    "vote": "N",
+    "firstName": "BRIDGET",
+    "lastName": "SMITH",
+    "district": "HD 31",
+    "districtNum": 31,
+    "party": "D",
+    "city": "WOLF POINT"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ZACH",
+    "lastName": "BROWN",
+    "district": "HD 63",
+    "districtNum": 63,
+    "party": "D",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BRUCE",
+    "lastName": "GRUBBS",
+    "district": "HD 68",
+    "districtNum": 68,
+    "party": "R",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "THERESA",
+    "lastName": "MANZELLA",
+    "district": "HD 85",
+    "districtNum": 85,
+    "party": "R",
+    "city": "HAMILTON"
+  },
+  {
+    "vote": "N",
+    "firstName": "SCOTT",
+    "lastName": "STAFFANSON",
+    "district": "HD 35",
+    "districtNum": 35,
+    "party": "R",
+    "city": "SIDNEY"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BOB",
+    "lastName": "BROWN",
+    "district": "HD 13",
+    "districtNum": 13,
+    "party": "R",
+    "city": "THOMPSON FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "STEVE",
+    "lastName": "GUNDERSON",
+    "district": "HD 1",
+    "districtNum": 1,
+    "party": "R",
+    "city": "LIBBY"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KELLY",
+    "lastName": "MCCARTHY",
+    "district": "HD 49",
+    "districtNum": 49,
+    "party": "D",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "SHARON",
+    "lastName": "STEWART-PEREGOY",
+    "district": "HD 42",
+    "districtNum": 42,
+    "party": "D",
+    "city": "CROW AGENCY"
+  },
+  {
+    "vote": "N",
+    "firstName": "TOM",
+    "lastName": "BURNETT",
+    "district": "HD 67",
+    "districtNum": 67,
+    "party": "R",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JIM",
+    "lastName": "HAMILTON",
+    "district": "HD 61",
+    "districtNum": 61,
+    "party": "D",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "NATE",
+    "lastName": "MCCONNELL",
+    "district": "HD 89",
+    "districtNum": 89,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KATHY",
+    "lastName": "SWANSON",
+    "district": "HD 77",
+    "districtNum": 77,
+    "party": "D",
+    "city": "ANACONDA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ROB",
+    "lastName": "COOK",
+    "district": "HD 18",
+    "districtNum": 18,
+    "party": "R",
+    "city": "CONRAD"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BRADLEY MAXON",
+    "lastName": "HAMLETT",
+    "district": "HD 23",
+    "districtNum": 23,
+    "party": "D",
+    "city": "CASCADE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "WENDY",
+    "lastName": "MCKAMEY",
+    "district": "HD 19",
+    "districtNum": 19,
+    "party": "R",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JEREMY",
+    "lastName": "TREBAS",
+    "district": "HD 25",
+    "districtNum": 25,
+    "party": "R",
+    "city": "Great Falls"
+  },
+  {
+    "vote": "Y",
+    "firstName": "VIRGINIA",
+    "lastName": "COURT",
+    "district": "HD 50",
+    "districtNum": 50,
+    "party": "D",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BILL",
+    "lastName": "HARRIS",
+    "district": "HD 37",
+    "districtNum": 37,
+    "party": "R",
+    "city": "WINNETT"
+  },
+  {
+    "vote": "Y",
+    "firstName": "SHANE",
+    "lastName": "MORIGEAU",
+    "district": "HD 95",
+    "districtNum": 95,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BRAD",
+    "lastName": "TSCHIDA",
+    "district": "HD 97",
+    "districtNum": 97,
+    "party": "R",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MIKE",
+    "lastName": "CUFFE",
+    "district": "HD 2",
+    "districtNum": 2,
+    "party": "R",
+    "city": "EUREKA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DENISE",
+    "lastName": "HAYMAN",
+    "district": "HD 66",
+    "districtNum": 66,
+    "party": "D",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DALE",
+    "lastName": "MORTENSEN",
+    "district": "HD 44",
+    "districtNum": 44,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "BARRY",
+    "lastName": "USHER",
+    "district": "HD 40",
+    "districtNum": 40,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "WILLIS",
+    "lastName": "CURDY",
+    "district": "HD 98",
+    "districtNum": 98,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "GREG",
+    "lastName": "HERTZ",
+    "district": "HD 12",
+    "districtNum": 12,
+    "party": "R",
+    "city": "POLSON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MARK",
+    "lastName": "NOLAND",
+    "district": "HD 10",
+    "districtNum": 10,
+    "party": "R",
+    "city": "BIGFORK"
+  },
+  {
+    "vote": "Y",
+    "firstName": "SUE",
+    "lastName": "VINTON",
+    "district": "HD 56",
+    "districtNum": 56,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "N",
+    "firstName": "AMANDA",
+    "lastName": "CURTIS",
+    "district": "HD 74",
+    "districtNum": 74,
+    "party": "D",
+    "city": "BUTTE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ADAM",
+    "lastName": "HERTZ",
+    "district": "HD 96",
+    "districtNum": 96,
+    "party": "R",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JAMES",
+    "lastName": "O'HARA",
+    "district": "HD 27",
+    "districtNum": 27,
+    "party": "R",
+    "city": "FORT BENTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KIRK",
+    "lastName": "WAGONER",
+    "district": "HD 75",
+    "districtNum": 75,
+    "party": "R",
+    "city": "MONTANA CITY"
+  },
+  {
+    "vote": "Y",
+    "firstName": "GERALDINE",
+    "lastName": "CUSTER",
+    "district": "HD 39",
+    "districtNum": 39,
+    "party": "R",
+    "city": "FORSYTH"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ELLIE",
+    "lastName": "HILL SMITH",
+    "district": "HD 90",
+    "districtNum": 90,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "A",
+    "firstName": "ANDREA",
+    "lastName": "OLSEN",
+    "district": "HD 100",
+    "districtNum": 100,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "PEGGY",
+    "lastName": "WEBB",
+    "district": "HD 43",
+    "districtNum": 43,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ALAN",
+    "lastName": "DOANE",
+    "district": "HD 36",
+    "districtNum": 36,
+    "party": "R",
+    "city": "BLOOMFIELD"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KENNETH",
+    "lastName": "HOLMLUND",
+    "district": "HD 38",
+    "districtNum": 38,
+    "party": "R",
+    "city": "MILES CITY"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JIMMY",
+    "lastName": "PATELIS",
+    "district": "HD 52",
+    "districtNum": 52,
+    "party": "R",
+    "city": "BILLNGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "SUSAN",
+    "lastName": "WEBBER",
+    "district": "HD 16",
+    "districtNum": 16,
+    "party": "D",
+    "city": "BROWNING"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KIMBERLY",
+    "lastName": "DUDIK",
+    "district": "HD 94",
+    "districtNum": 94,
+    "party": "D",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MIKE",
+    "lastName": "HOPKINS",
+    "district": "HD 92",
+    "districtNum": 92,
+    "party": "R",
+    "city": "MISSOULA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "RAE",
+    "lastName": "PEPPERS",
+    "district": "HD 41",
+    "districtNum": 41,
+    "party": "D",
+    "city": "LAME DEER"
+  },
+  {
+    "vote": "Y",
+    "firstName": "TOM",
+    "lastName": "WELCH",
+    "district": "HD 72",
+    "districtNum": 72,
+    "party": "R",
+    "city": "Dillon"
+  },
+  {
+    "vote": "Y",
+    "firstName": "MARY ANN",
+    "lastName": "DUNWELL",
+    "district": "HD 84",
+    "districtNum": 84,
+    "party": "D",
+    "city": "HELENA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "TOM",
+    "lastName": "JACOBSON",
+    "district": "HD 21",
+    "districtNum": 21,
+    "party": "D",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ZAC",
+    "lastName": "PERRY",
+    "district": "HD 3",
+    "districtNum": 3,
+    "party": "D",
+    "city": "HUNGRY HORSE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "KERRY",
+    "lastName": "WHITE",
+    "district": "HD 64",
+    "districtNum": 64,
+    "party": "R",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JENNY",
+    "lastName": "ECK",
+    "district": "HD 79",
+    "districtNum": 79,
+    "party": "D",
+    "city": "HELENA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DONALD",
+    "lastName": "JONES",
+    "district": "HD 46",
+    "districtNum": 46,
+    "party": "R",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "GORDON",
+    "lastName": "PIERSON",
+    "district": "HD 78",
+    "districtNum": 78,
+    "party": "D",
+    "city": "DEER LODGE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JONATHAN",
+    "lastName": "WINDY BOY",
+    "district": "HD 32",
+    "districtNum": 32,
+    "party": "D",
+    "city": "BOX ELDER"
+  },
+  {
+    "vote": "Y",
+    "firstName": "RON",
+    "lastName": "EHLI",
+    "district": "HD 86",
+    "districtNum": 86,
+    "party": "R",
+    "city": "HAMILTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JESSICA",
+    "lastName": "KARJALA",
+    "district": "HD 48",
+    "districtNum": 48,
+    "party": "D",
+    "city": "BILLINGS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JEAN",
+    "lastName": "PRICE",
+    "district": "HD 24",
+    "districtNum": 24,
+    "party": "D",
+    "city": "GREAT FALLS"
+  },
+  {
+    "vote": "Y",
+    "firstName": "TOM",
+    "lastName": "WOODS",
+    "district": "HD 62",
+    "districtNum": 62,
+    "party": "D",
+    "city": "BOZEMAN"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JANET",
+    "lastName": "ELLIS",
+    "district": "HD 81",
+    "districtNum": 81,
+    "party": "D",
+    "city": "HELENA"
+  },
+  {
+    "vote": "Y",
+    "firstName": "JIM",
+    "lastName": "KEANE",
+    "district": "HD 73",
+    "districtNum": 73,
+    "party": "D",
+    "city": "BUTTE"
+  },
+  {
+    "vote": "Y",
+    "firstName": "ALAN",
+    "lastName": "REDFIELD",
+    "district": "HD 59",
+    "districtNum": 59,
+    "party": "R",
+    "city": "LIVINGSTON"
+  },
+  {
+    "vote": "Y",
+    "firstName": "DANIEL",
+    "lastName": "ZOLNIKOV",
+    "district": "HD 45",
+    "districtNum": 45,
+    "party": "R",
+    "city": "BILLINGS"
+  }
+]

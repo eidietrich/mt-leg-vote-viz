@@ -1,0 +1,120 @@
+
+#viz-root {
+  border: 1px #bbb solid;
+  padding: 10px 10px;
+}
+
+/* Vote total */
+.vote-total-container {
+  text-align: center;
+}
+
+/* District display */
+
+.district-container {
+  width: 100%;
+  margin: auto;
+}
+
+/*Clearfix hack*/
+.district-container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Breakpoint for mobile display - 400px */
+
+@media (min-width: 500px){
+  .district-container {
+    padding: 0px 50px;
+  }
+}
+
+.district {
+  width: 50px;
+  padding: 0 1em;
+  height: 50px;
+  margin: 1.5px;
+  float: left;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: #bbb;
+  border: 1px solid #979797;
+}
+.district:hover {
+  border: 2px solid #000;
+}
+.district span{
+  pointer-events: none;
+}
+
+/* Partisan colors */
+span {
+  font-weight: bold;
+}
+span.number-large {
+  font-size: 2em;
+}
+span.number-small {
+  font-size: 1.25em;
+}
+
+span.support {
+  color: #4daf4a;
+}
+span.oppose {
+  color: #ff7f00;
+}
+span.other-vote {
+  color: #666;
+}
+span.dem {
+  color: #377eb8;
+}
+span.gop {
+  color: #e41a1c;
+}
+
+.yea {
+  background: #4daf4a;
+  border: 0.5px solid #3D8B3B;
+}
+
+.nay {
+  background: #ff7f00;
+  border: 0.5px solid #DB6D00;
+ }
+
+/* Tooltip */
+
+.hide {
+  display: none;
+}
+
+#tooltip-container {
+  position: fixed;
+  background-color: #fff;
+  opacity: 1;
+  padding: 0.5em 0.75em;
+  border: 0.5px solid #ddd;
+  box-shadow: 2px 2px 4px #555;
+
+  /*pointer-events: none;*/
+}
+
+.tooltip-content {
+  text-align: left;
+}
+.tooltip-title {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0;
+  /*margin-bottom: 0.25em;*/
+}
+.tooltip-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

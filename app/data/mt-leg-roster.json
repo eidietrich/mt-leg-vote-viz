@@ -225,7 +225,8 @@
     "StateProvince": "MT",
     "PostalCode": "59105-3457",
     "chamber": "senate",
-    "name": "KARY, DOUG"
+    "name": "KARY, DOUG",
+    "altNames": ["KARY, DOUGLAS"]
   },
   {
     "LastName": "KEENAN",
@@ -261,7 +262,8 @@
     "StateProvince": "MT",
     "PostalCode": "59103",
     "chamber": "senate",
-    "name": "MACDONALD, MARGARET ( MARGIE )"
+    "name": "MACDONALD, MARGARET ( MARGIE )",
+    "altNames": "MACDONALD, MARGARET"
   },
   {
     "LastName": "MALEK",
@@ -285,7 +287,8 @@
     "StateProvince": "MT",
     "PostalCode": "59701-5014",
     "chamber": "senate",
-    "name": "MCCLAFFERTY, EDIE"
+    "name": "MCCLAFFERTY, EDIE",
+    "altNames": ["MCCLAFFERTY, EDITH"]
   },
   {
     "LastName": "MCNALLY",
@@ -309,7 +312,8 @@
     "StateProvince": "MT",
     "PostalCode": "59405-4120",
     "chamber": "senate",
-    "name": "MOE, MARY SHEEHY"
+    "name": "MOE, MARY SHEEHY",
+    "altNames": ["MOE, MARY"]
   },
   {
     "LastName": "MOORE",
@@ -321,7 +325,8 @@
     "StateProvince": "MT",
     "PostalCode": "59301-9205",
     "chamber": "senate",
-    "name": "MOORE, FREDERICK ( ERIC )"
+    "name": "MOORE, FREDERICK ( ERIC )",
+    "altNames": ["MOORE, FREDERICK"]
   },
   {
     "LastName": "OLSZEWSKI",
@@ -1067,7 +1072,7 @@
     "PostalCode": "59421-0049",
     "chamber": "house",
     "name": "HAMLETT, BRADLEY MAXON",
-    "altNames": "HAMLET, BRADLEY"
+    "altNames": "HAMLETT, BRADLEY"
   },
   {
     "LastName": "HARRIS",

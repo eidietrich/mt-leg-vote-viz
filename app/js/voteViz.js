@@ -25,14 +25,16 @@ var outputBox = document.querySelector('#html-for-embed');
 // Data variables
 var voteData, legRoster, chartText, templateCss, templateJs;
 // Visualization elements
-var vizRoot, vizHtml;
+var vizRoot, vizContainer, vizHtml;
 
 // INITIALIZE APP
 function init(){
   vizRoot = d3.select('#viz-root');
-  vizHtml = vizRoot.append('div')
+  vizContainer = vizRoot.append('div')
     .attr("id","viz-container");
-  vizRoot.append("div")
+  vizHtml =  vizContainer.append('div')
+    .attr("id","viz-contents")
+  vizContainer.append("div")
     .attr("id", "tooltip-container")
     .classed('hide', true);
 

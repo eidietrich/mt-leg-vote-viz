@@ -34,7 +34,8 @@ function draw(text, data){
     '<span class="number-small">' + totals.ofGOP.yea + '</span> ' +
     '<span class="support">in favor</span>, ' +
     '<span class="number-small">' + totals.ofGOP.nay + '</span> ' +
-    '<span class="oppose">opposed</span>. ' +
+    '<span class="oppose">opposed</span>.');
+  vizHtml.append('p').html(
     'Of <span class="dem">Democrats</span>: ' +
     '<span class="number-small">' + totals.ofDems.yea + '</span> ' +
     '<span class="support">in favor</span>, ' +

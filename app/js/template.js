@@ -2,13 +2,28 @@
 
 // TOOLTIP HANDLING
 var tooltip, viz;
-var BREAKPOINT = 400;
+var BREAKPOINT = 768;
+
+function initializeFilters(){
+  $('#filterDems').click(function(){
+    $(".district[leg-party^='D']").addClass('filter');
+    $(".district[leg-party^='R']").removeClass('filter');
+  });
+  $('#filterGOP').click(function(){
+    $(".district[leg-party^='R']").addClass('filter');
+    $(".district[leg-party^='D']").removeClass('filter');
+  });
+  $('#filterReset').click(function(){
+    $(".district[leg-party^='D']").removeClass('filter');
+    $(".district[leg-party^='R']").removeClass('filter');
+  });
+}
 
 function initializeTooltips(){
   var districts = $('.district');
   tooltip = $('#tooltip-container');
   viz = $('#viz-container');
-  var displayIsMobile = (viz.width() < BREAKPOINT)
+  var displayIsMobile = ($(window).width() < BREAKPOINT)
   var tooltipBuilder = displayIsMobile ? turnOnMobileTooltip : turnOnDesktopTooltip;
   districts.hover(tooltipBuilder, turnOffTooltip);
 }
@@ -16,6 +31,7 @@ function turnOnMobileTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));
   tooltip.css({
     'width': '100%',
+    'position': 'fixed',
     'left': '0px',
     'bottom': '0px',
     'max-height': '100px'
@@ -26,8 +42,9 @@ function turnOnDesktopTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));
   tooltip.css({
     'pointer-events': 'none',
-    'left': e.clientX + "px",
-    'top': e.clientY + "px"
+    'position': 'absolute',
+    'left': e.pageX + "px",
+    'top': e.pageY + "px"
   });
   tooltip.removeClass('hide');
 }
@@ -59,3 +76,4 @@ function buildTooltipHtml(element){
 }
 
 initializeTooltips();
+initializeFilters();

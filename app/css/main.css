@@ -30,7 +30,7 @@
 
 @media (min-width: 500px){
   #viz-container .district-container {
-    padding: 0px 50px;
+    padding: 10px 50px;
   }
 }
 
@@ -90,6 +90,16 @@
   border: 0.5px solid #DB6D00;
  }
 
+/* Filter buttons*/
+.district[leg-party^='R'].filter,
+.district[leg-party^='D'].filter {
+  display: none;
+}
+
+#filter-container > div {
+  margin-left: 4px;
+}
+
 /* Tooltip */
 
 #viz-container #tooltip-container .hide {
@@ -97,15 +107,16 @@
 }
 
 #viz-container #tooltip-container {
-  position: fixed;
+  position: absolute;
   background-color: #fff;
   opacity: 1;
   padding: 0.5em 0.75em;
   border: 0.5px solid #ddd;
   box-shadow: 2px 2px 4px #555;
-
-  /*pointer-events: none;*/
+  z-index: 2000;
 }
+
+/* Note: Conditional css for mobile versus desktop tooltips provided by template.js */
 
 #viz-container #tooltip-container .hide {
   display: none;

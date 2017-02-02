@@ -42,6 +42,19 @@ function draw(text, data){
     '<span class="number-small">' + totals.ofDems.nay + '</span> ' +
     '<span class="oppose">opposed</span>.'
   );
+
+  // Filter button bar
+  vizHtml.append('div')
+    .attr('id', 'filter-container')
+    .html(
+      '<label>Show:</label>' +
+      '<div class="btn-group">' +
+      '<button class="btn btn-default btn-sm" id="filterGOP">GOP</button>' +
+      '<button class="btn btn-default btn-sm" id="filterDems">Dems</button>' +
+      '<button class="btn btn-default btn-sm" id="filterReset">All</button>' +
+      '</div>'
+    );
+
   var districts = vizHtml.append('div')
     .attr("class","district-container")
     .selectAll('.district')
@@ -58,6 +71,9 @@ function draw(text, data){
     })
     .html(function(d){ return '<span>' + d.district + '</span>'; });
 
+
+
   initializeTooltips(); // calls to template.js
+  initializeFilters(); // calls to template.js
   fillOutputBox(); // calls back to main voteViz.js
 }

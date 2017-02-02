@@ -26,3 +26,7 @@ Graphic components:
 Workplan:
 - Add export to social-friendly .png?
 
+IDEAS:
+- Outline republicans/dems on desktop when you click on votes.
+- Or use layout to separate parties
+- On builder: A place to paste in URL for bill page (below cutline)

@@ -6,12 +6,12 @@ var BREAKPOINT = 768;
 
 function initializeFilters(){
   $('#filterDems').click(function(){
-    $(".district[leg-party^='D']").addClass('filter');
-    $(".district[leg-party^='R']").removeClass('filter');
-  });
-  $('#filterGOP').click(function(){
     $(".district[leg-party^='R']").addClass('filter');
     $(".district[leg-party^='D']").removeClass('filter');
+  });
+  $('#filterGOP').click(function(){
+    $(".district[leg-party^='D']").addClass('filter');
+    $(".district[leg-party^='R']").removeClass('filter');
   });
   $('#filterReset').click(function(){
     $(".district[leg-party^='D']").removeClass('filter');

@@ -16,8 +16,19 @@
 
 #viz-container .district-container {
   width: 100%;
-  margin: auto;
-  padding: 10px 0px;
+  margin: 0px auto 0.5em;
+  /*padding: 10px 0px;*/
+  padding: 2.5px 2.5px;
+  border: 1px solid black;
+}
+
+#viz-container .district-container.gop {
+  border-color: #e41a1c;
+  border-top: 5px solid #e41a1c;
+}
+#viz-container .district-container.dem {
+  border-color: #377eb8;
+  border-top: 5px solid #377eb8;
 }
 
 /*Clearfix hack*/
@@ -83,9 +94,17 @@
   border: 0.5px solid #DB6D00;
  }
 
+#viz-container .dem {
+  /*border-top: 4px solid #377eb8;*/
+}
+
+#viz-container .gop {
+  /*border-top: 4px solid #e41a1c;*/
+}
+
 /* Filter buttons*/
-.district[leg-party^='R'].filter,
-.district[leg-party^='D'].filter {
+.district.gop.filter,
+.district.dem.filter {
   display: none;
 }
 

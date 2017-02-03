@@ -6,6 +6,8 @@ function draw(text, data){
   var cutline = text.cutline;
   var totals = data.totals;
   var votesByDistrict = data.votesByDistrict;
+  var gopSeats = votesByDistrict.filter(function(d){ return d.party === 'R'; });
+  var demSeats = votesByDistrict.filter(function(d){ return d.party === 'D'; });
 
   vizHtml.html("") // clears out viz div
 
@@ -29,40 +31,46 @@ function draw(text, data){
       '<span>' + (totals.overall.absent + totals.overall.excused) + '</span> ' +
       'lawmaker' + plural + ' excused or absent)'
     );
-  vizHtml.append('p').html(
-    'Of <span class="gop">Republicans</span>: ' +
-    '<span class="number-small">' + totals.ofGOP.yea + '</span> ' +
-    '<span class="support">in favor</span>, ' +
-    '<span class="number-small">' + totals.ofGOP.nay + '</span> ' +
-    '<span class="oppose">opposed</span>.');
-  vizHtml.append('p').html(
-    'Of <span class="dem">Democrats</span>: ' +
-    '<span class="number-small">' + totals.ofDems.yea + '</span> ' +
-    '<span class="support">in favor</span>, ' +
-    '<span class="number-small">' + totals.ofDems.nay + '</span> ' +
-    '<span class="oppose">opposed</span>.'
-  );
 
-  // Filter button bar
-  vizHtml.append('div')
-    .attr('id', 'filter-container')
+  vizHtml.append('h5')
+    .attr('class','party-header')
     .html(
-      '<label>Show:</label>' +
-      '<div class="btn-group">' +
-      '<button class="btn btn-default btn-sm" id="filterGOP">GOP</button>' +
-      '<button class="btn btn-default btn-sm" id="filterDems">Dems</button>' +
-      '<button class="btn btn-default btn-sm" id="filterReset">All</button>' +
-      '</div>'
-    );
+      '<span class="gop">Republicans</span>: ' +
+      '<span class="number-small">' + totals.ofGOP.yea + '</span> ' +
+      '<span class="support">in favor</span>, ' +
+      '<span class="number-small">' + totals.ofGOP.nay + '</span> ' +
+      '<span class="oppose">opposed</span>');
+  drawDistricts(vizHtml, gopSeats, 'gop');
 
+  vizHtml.append('h5')
+    .attr('class','party-header')
+    .html(
+      '<span class="dem">Democrats</span>: ' +
+      '<span class="number-small">' + totals.ofDems.yea + '</span> ' +
+      '<span class="support">in favor</span>, ' +
+      '<span class="number-small">' + totals.ofDems.nay + '</span> ' +
+      '<span class="oppose">opposed</span>'
+    );
+  drawDistricts(vizHtml, demSeats, 'dem');
+
+  addFilterBar(vizHtml);
+
+  initializeTooltips(); // calls to template.js
+  initializeFilters(); // calls to template.js
+  fillOutputBox(); // calls back to main voteViz.js
+}
+
+function drawDistricts(elem, votesToDraw, party){
   var districts = vizHtml.append('div')
-    .attr("class","district-container")
+    .attr("class","district-container " + party)
     .selectAll('.district')
-    .data(votesByDistrict).enter();
+    .data(votesToDraw).enter();
   districts.append('div')
     .attr('class', 'district')
     .classed('yea', function(d){ return d.vote === "Y"; })
     .classed('nay', function(d){ return d.vote === "N"; })
+    .classed('gop', function(d){ return d.party === "R"; })
+    .classed('dem', function(d){ return d.party === "D"; })
     // Attrs to pass data to rendered version of object
     .attr('leg-name', function(leg){ return leg.firstName + ' ' + leg.lastName; })
     .attr('leg-party', function(leg){ return leg.party + '-' + leg.city; })
@@ -70,10 +78,20 @@ function draw(text, data){
       return capitalizeFirstLetter(voteKey[leg.vote])
     })
     .html(function(d){ return '<span>' + d.district + '</span>'; });
+}
 
-
-
-  initializeTooltips(); // calls to template.js
-  initializeFilters(); // calls to template.js
-  fillOutputBox(); // calls back to main voteViz.js
+function addFilterBar(elem){
+  // Filter button bar
+  elem.append('div')
+    .attr('id', 'filter-container')
+    .html(
+      '<label>Show:</label>' +
+      '<div class="btn-group">' +
+      // '<button class="btn btn-default btn-sm" id="filterGOP">GOP</button>' +
+      // '<button class="btn btn-default btn-sm" id="filterDems">Dems</button>' +
+      '<button class="btn btn-default btn-sm" id="filterYeas">For</button>' +
+      '<button class="btn btn-default btn-sm" id="filterNays">Against</button>' +
+      '<button class="btn btn-default btn-sm" id="filterReset">All</button>' +
+      '</div>'
+    );
 }

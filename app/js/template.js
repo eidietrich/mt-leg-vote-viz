@@ -6,16 +6,27 @@ var BREAKPOINT = 768;
 
 function initializeFilters(){
   $('#filterDems').click(function(){
-    $(".district[leg-party^='R']").addClass('filter');
-    $(".district[leg-party^='D']").removeClass('filter');
+    $(".district").addClass('filter');
+    $(".district.gop").addClass('filter');
+    $(".district.dem").removeClass('filter');
   });
   $('#filterGOP').click(function(){
-    $(".district[leg-party^='D']").addClass('filter');
-    $(".district[leg-party^='R']").removeClass('filter');
+    $(".district").addClass('filter');
+    $(".district.dem").addClass('filter');
+    $(".district.gop").removeClass('filter');
+  });
+  $('#filterYeas').click(function(){
+    $(".district").addClass('filter'); // turn all off, including non-votes
+    $(".district.nay").addClass('filter');
+    $(".district.yea").removeClass('filter');
+  });
+  $('#filterNays').click(function(){
+    $(".district").addClass('filter');
+    $(".district.yea").addClass('filter');
+    $(".district.nay").removeClass('filter');
   });
   $('#filterReset').click(function(){
-    $(".district[leg-party^='D']").removeClass('filter');
-    $(".district[leg-party^='R']").removeClass('filter');
+    $(".district").removeClass('filter');
   });
 }
 

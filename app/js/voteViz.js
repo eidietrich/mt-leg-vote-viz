@@ -17,6 +17,7 @@ var templateJsPath = './js/template.js'; // JS to pass to output embed
 // Input Form elements
 var headlineInput = document.querySelector('#headline-input');
 var cutlineInput = document.querySelector('#cutline-input');
+var urlInput = document.querySelector('#url-input');
 var voteTextInput = document.querySelector('#vote-text-input');
 
 // Output text box
@@ -73,7 +74,8 @@ function onFormSubmit(e){
   voteData = processData(voteTextInput.value, legRoster);
   chartText = {
     'headline': headlineInput.value,
-    'cutline': cutlineInput.value
+    'cutline': cutlineInput.value,
+    'url': urlInput.value,
   };
   draw(chartText, voteData);
 }

@@ -39,6 +39,11 @@ function initializeTooltips(){
   // districts.hover(tooltipBuilder, turnOffTooltip);
   districts.mousemove(tooltipBuilder);
   districts.mouseleave(turnOffTooltip);
+
+  if (displayIsMobile) {
+    // close mobile tooltip on any page touch
+    $(tooltip).on('click', turnOffTooltip);
+  }
 }
 function turnOnMobileTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));

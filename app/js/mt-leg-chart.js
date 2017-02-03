@@ -4,6 +4,7 @@ function draw(text, data){
   console.log('drawing with', data);
   var headline = text.headline;
   var cutline = text.cutline;
+  var url = text.url;
   var totals = data.totals;
   var votesByDistrict = data.votesByDistrict;
   var gopSeats = votesByDistrict.filter(function(d){ return d.party === 'R'; });
@@ -13,11 +14,19 @@ function draw(text, data){
 
   vizHtml.append('h2').text(headline);
   vizHtml.append('p').text(cutline);
+
+  if (url){
+    vizHtml.append('p')
+      .html(
+        '<a href="' + url + '" target="_blank">See more</a> on the bill.'
+      );
+  }
+
   vizHtml.append('p')
     .attr('class','vote-total-container')
     .html(
       '<span class="number-large">' + totals.overall.yea + '</span> ' +
-      '<span class="support"> in favor</span>, ' +
+      '<span class="support"> in favor</span> ' +
       '<span class="number-large">' + totals.overall.nay + '</span> ' +
       '<span class="oppose">opposed</span>'
     );
@@ -89,9 +98,9 @@ function addFilterBar(elem){
       '<div class="btn-group">' +
       // '<button class="btn btn-default btn-sm" id="filterGOP">GOP</button>' +
       // '<button class="btn btn-default btn-sm" id="filterDems">Dems</button>' +
-      '<button class="btn btn-default btn-sm" id="filterYeas">For</button>' +
-      '<button class="btn btn-default btn-sm" id="filterNays">Against</button>' +
-      '<button class="btn btn-default btn-sm" id="filterReset">All</button>' +
+      '<button class="btn btn-default btn-sm" id="filterYeas">In favor</button>' +
+      '<button class="btn btn-default btn-sm" id="filterNays">Opposed</button>' +
+      '<button class="btn btn-default btn-sm" id="filterReset">All votes</button>' +
       '</div>'
     );
 }

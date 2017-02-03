@@ -25,7 +25,9 @@ function initializeTooltips(){
   viz = $('#viz-container');
   var displayIsMobile = ($(window).width() < BREAKPOINT)
   var tooltipBuilder = displayIsMobile ? turnOnMobileTooltip : turnOnDesktopTooltip;
-  districts.hover(tooltipBuilder, turnOffTooltip);
+  // districts.hover(tooltipBuilder, turnOffTooltip);
+  districts.mousemove(tooltipBuilder);
+  districts.mouseleave(turnOffTooltip);
 }
 function turnOnMobileTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));
@@ -34,6 +36,7 @@ function turnOnMobileTooltip(e){
     'width': '100%',
     'position': 'fixed',
     'left': '0px',
+    'top': 'auto',
     'bottom': '0px',
   });
   tooltip.removeClass('hide');
@@ -43,9 +46,9 @@ function turnOnDesktopTooltip(e){
   tooltip.css({
     'pointer-events': 'none',
     'width': 'auto',
-    'position': 'absolute',
-    'left': e.pageX + "px",
-    'top': e.pageY + "px",
+    'position': 'fixed',
+    'left': (e.clientX + 10) + "px",
+    'top': (e.clientY + 10) + "px",
     'bottom': 'auto'
   });
   tooltip.removeClass('hide');

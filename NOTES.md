@@ -1,11 +1,6 @@
 # MT Legislation vis
 
-Intent: To create a tool to visualize legislative votes
-
-Form: Web app hosted on github pages or in-house server
-Inspired by Quartz's chartbuilder
-Code: https://github.com/Quartz/Chartbuilder
-Display: http://quartz.github.io/Chartbuilder/
+A tool to visualize votes by the Montana legislature, inspired by Quartz's [Chartbuilder](http://quartz.github.io/Chartbuilder/). Hosted on an in-house server, users can copy information from the state legislative services site and produce html snippets for embedding in story assets.
 
 Input:
 - Static data on legislative districts
@@ -16,17 +11,10 @@ OUTPUT:
 - AND/OR
 - Static version for sharing on social media (#TODO)
 
-Graphic components:
-- Graphic headline
-- Secondary text
-- Total number of Ayes/Nays --> Pass/fail
-- Party lines indicator (DEM Ayes/Nays, GOP Ayes/Nays)
-- Graphic display of votes - By district representation (#TODO: Or cartogram)
-
 Workplan:
 - Add export to social-friendly .png?
 
 IDEAS:
 - Outline republicans/dems on desktop when you click on votes.
 - Or use layout to separate parties
-- On builder: A place to paste in URL for bill page (below cutline)
+- Graphic display of votes - By district representation (#TODO: Or cartogram)

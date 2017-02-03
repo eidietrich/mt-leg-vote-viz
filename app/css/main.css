@@ -17,6 +17,7 @@
 #viz-container .district-container {
   width: 100%;
   margin: auto;
+  padding: 10px 0px;
 }
 
 /*Clearfix hack*/
@@ -24,14 +25,6 @@
   content: "";
   clear: both;
   display: table;
-}
-
-/* Breakpoint for mobile display - 400px */
-
-@media (min-width: 500px){
-  #viz-container .district-container {
-    padding: 10px 50px;
-  }
 }
 
 #viz-container .district {

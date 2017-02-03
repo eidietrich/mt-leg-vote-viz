@@ -30,11 +30,11 @@ function initializeTooltips(){
 function turnOnMobileTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));
   tooltip.css({
+    'pointer-events': 'auto',
     'width': '100%',
     'position': 'fixed',
     'left': '0px',
     'bottom': '0px',
-    'max-height': '100px'
   });
   tooltip.removeClass('hide');
 }
@@ -42,9 +42,11 @@ function turnOnDesktopTooltip(e){
   tooltip.html(buildTooltipHtml(e.target));
   tooltip.css({
     'pointer-events': 'none',
+    'width': 'auto',
     'position': 'absolute',
     'left': e.pageX + "px",
-    'top': e.pageY + "px"
+    'top': e.pageY + "px",
+    'bottom': 'auto'
   });
   tooltip.removeClass('hide');
 }

@@ -14,6 +14,9 @@ OUTPUT:
 Workplan:
 - Add export to social-friendly .png?
 
+TODO:
+- Add version number to output code
+
 IDEAS:
 - Outline republicans/dems on desktop when you click on votes.
 - Or use layout to separate parties

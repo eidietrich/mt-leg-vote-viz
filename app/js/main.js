@@ -88,12 +88,17 @@ function addFormListeners(){
 
 // EMBED OUTPUT AS HTML
 function fillOutputBox(){
+  var currentDate = d3.timeFormat("%m/%d/%Y at %X")(new Date());
+  var outputNotes = '<!-- Embed generated ' + currentDate + ' -->';
   var outputHtml = document.querySelector('#viz-root').innerHTML;
   outputStyle = '<style>' + templateCss + '</style>';
   outputJs = '<script>' + templateJs + '</script>';
 
   outputBox.value = (
-    outputStyle + outputHtml + outputJs
+    outputNotes + '\n' +
+    outputStyle + '\n' +
+    outputHtml + '\n' +
+    outputJs
   );
 }
 function copyOutputBoxContents(){

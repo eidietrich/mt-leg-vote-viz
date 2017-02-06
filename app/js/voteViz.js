@@ -66,7 +66,7 @@ function init(){
       draw(chartText, voteData); // Call to mt-leg-chart.js
 
       fillOutputBox();
-      makeDownloadImage();
+      addGenerateListener();
   });
 }
 
@@ -107,6 +107,11 @@ function addOutputBoxListener() {
 
 // MAKE STATIC IMAGE OF OUTPUT
 
+function addGenerateListener(){
+  var generateButton = $('#generate-image');
+  generateButton.on('click', makeDownloadImage);
+}
+
 function makeDownloadImage(){
   console.log('downloading');
   var exportWidth = 1200;
@@ -143,8 +148,10 @@ function makeDownloadImage(){
       $("#trigger-image-download").on('click', function(){
         this.href = canvas.toDataURL('image/png');
         this.download = 'vote-map.png';
-        renderContainer.html("");
+
       });
+      $('.static-image-indicator').text('Yes');
+      renderContainer.html("");
     },
     background: '#fff',
     height: exportHeight,

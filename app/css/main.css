@@ -7,6 +7,13 @@
   padding: 10px 10px;
 }
 
+#viz-container h2 {
+  font-weight: 600;
+}
+#viz-container p, h5 {
+  font-size: 18px;
+}
+
 /* Vote total */
 #viz-container .vote-total-container {
   text-align: center;

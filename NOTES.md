@@ -9,10 +9,7 @@ Input:
 OUTPUT:
 - Responsive HTML that can be dropped into a BLOX HTML asset
 - AND/OR
-- Static version for sharing on social media (#TODO)
-
-Workplan:
-- Add export to social-friendly .png?
+- Static .png version for sharing on social media
 
 TODO:
 - Add version number to output code

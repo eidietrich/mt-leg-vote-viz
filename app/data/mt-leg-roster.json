@@ -316,6 +316,19 @@
     "altNames": ["MOE, MARY"]
   },
   {
+    "LastName": "BOLAND",
+    "FirstName": "CYDNIE",
+    "PartyAbbrev": "D",
+    "Districts": "SD 12",
+    "Addr_Ln_1": "No data",
+    "City": "GREAT FALLS",
+    "StateProvince": "MT",
+    "PostalCode": "No data",
+    "chamber": "senate",
+    "name": "BOLAND, CYDNIE (CARLIE)",
+    "altNames": ["BOLAND, CYDNIE", "BOLAND, CARLIE"]
+  },
+  {
     "LastName": "MOORE",
     "FirstName": "FREDERICK ( ERIC )",
     "PartyAbbrev": "R",
